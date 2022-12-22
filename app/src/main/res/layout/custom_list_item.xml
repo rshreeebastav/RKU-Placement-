@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00838F"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Id"
+            android:gravity="center_vertical|center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:background="@drawable/circle"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Description"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/job_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contract"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+        <TextView
+            android:id="@+id/job_contract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contract"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+        <TextView
+            android:id="@+id/job_package"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Training Time"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+        <TextView
+            android:id="@+id/job_tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Training Time"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_name9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="10dp"
+
+            android:textColor="@color/purple_500"
+            ></TextView>
+        <TextView
+            android:id="@+id/job_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_design"
+            android:text="LOGIN"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+
+            />
+
+        <Button
+            android:id="@+id/btn_log2"
+            android:layout_width="155dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_design"
+            android:text="LOGIN"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

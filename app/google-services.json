@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "744339954347",
+    "project_id": "rku-placement-portal-3fc57",
+    "storage_bucket": "rku-placement-portal-3fc57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744339954347:android:cf13e5ce152864177075ee",
+        "android_client_info": {
+          "package_name": "com.example.rkuplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744339954347-k0agba2bpnqd4h3pt51497kl68os8psv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rkuplace",
+            "certificate_hash": "4b0407f42611311d47ab44a6801ac30298161e95"
+          }
+        },
+        {
+          "client_id": "744339954347-enmtsnefolvg7b2pao5veua4tv8v1qvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzuIciAon_4ISF1ijhrsVq-lN64tftj8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744339954347-enmtsnefolvg7b2pao5veua4tv8v1qvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

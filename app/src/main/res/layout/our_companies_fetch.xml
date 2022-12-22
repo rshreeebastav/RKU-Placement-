@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+
+        android:padding="5dp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:fillViewport="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/companies_layout_action">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <TableLayout
+                    android:id="@+id/comapny_table"
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:background="#025560"
+                        android:gravity="center"
+                        android:text="JOB DESCRIPTION"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TableRow
+                        android:id="@+id/company_details1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Company Name:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Name"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="Yudiz Pvt.Ltd"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="#FFC7C7">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Job Location:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/job_location"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="Ahemdabad"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Company URL:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/company_url"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:autoLink="web"
+                            android:padding="5dp"
+                            android:text="www.yudiz.com"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFC7C7">
+
+                        <TextView
+
+                            android:padding="5dp"
+                            android:text="Package:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Package"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="will fix on interview"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Contract:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Contract"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="Not declare yet, may declared at the time of interview."
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFC7C7">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Job Profile:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/job_profile"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="c++, java, .net, etc"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Date of Joining:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/date_joining"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="January 2024"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TextView
+                        android:background="#025560"
+                        android:gravity="center"
+                        android:text="Eligibility Criteria"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+
+                    <TableRow
+                        android:id="@+id/company_details8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFC7C7">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Batch:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/batch"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="2023"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Eligible Courses:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/eligible_course"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="B.Tech-CE, IT, and MBA"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_details10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFC7C7">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Registration Time:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/registration_time"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="Letest by: 14/09/2022"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                    <TextView
+                        android:background="#025560"
+                        android:gravity="center"
+                        android:text="Other Details"
+
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+
+
+                    <TableRow
+                        android:id="@+id/company_details16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFC7C7">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Company Profile:"
+                            android:layout_marginStart="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/company_profile"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:text="Company description"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/company_detail17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFB7B2">
+
+                        <Button
+                            android:id="@+id/companies_apply1"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:backgroundTint="#2196F3"
+                            android:elevation="10dp"
+                            android:onClick="apply_company"
+                            android:text="Apply"
+                            android:textColor="@color/white"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="380dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="90dp"
+                    android:background="?android:attr/listDivider"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/comapny_table" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

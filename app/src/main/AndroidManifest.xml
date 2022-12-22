@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rkuplace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RKUPLACEMENT"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Payment"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".quiz"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".notification"
+            android:exported="true"
+            android:label="Notification"
+            android:parentActivityName=".Home"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".apply_company_form"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".liaison_officers"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Contact_Us"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Complaints"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Study_Material"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".applyform"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".About"
+            android:exported="true"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Prominent"
+            android:exported="true"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".our_companies"
+            android:colorMode="hdr"
+            android:exported="true"
+            android:label="OUR COMPANIES"
+            android:parentActivityName=".Home"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".home_menu"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".registration"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".terms_conditions"
+            android:exported="true"
+            android:theme="@style/Theme.App.SplashScreen"
+            android:screenOrientation="portrait">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

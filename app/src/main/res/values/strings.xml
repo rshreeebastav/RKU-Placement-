@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RKUPLACEMENT</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="hyperlink">Get More Information about Liaison Officers <a href='https://rku.ac.in/liaison-officers/'>Click Here</a></string>
+    <string name="profile_terms">I have read this <a href="https://www.rku.ac.in/">terms</a> and <a href="https://www.rku.ac.in/">condition</a>.</string>
+    <string name="hyperlink2">Please note that by login the placement you have accepted our  <a href='https://rku.ac.in/liaison-officers/'>Terms and Condition</a></string>
+
+
+    <string name="terms_conditions"><u>Terms and Conditions</u></string>
+    <string name="text1"><b>Eligibility for Registration:</b> Full time student of RK University, having 5.00 and above
+    CGPA in his/her academics can only registered for Training and Placement Cell.</string>
+    <string name="cuation_money_deposite"><b>Caution Money Deposite: </b> From placement registration fees, RS.5000
+    will be kept as a caution money deposite which will be refunded back to the registered candidates at the
+    end of placement season, if he/she is not violating any of the rules and regulations of placement cell.</string>
+    <string name="joining_process"><b>Joining Process: </b> Once candidate get the job offer he/she has to take NOC from
+    Training and Placement Cell and fulfill all the process from the department.</string>
+    <string name="dress_code"><b>Dress Code: </b> Students must be formally dressed (white shirt, black trousers, tie, formal shoes, well-groomed and black blazer (during winter))
+    whenever they participated in any sort of interaction with a company. This office reserves the right to refuse
+    permission to a student to attend the selection process if their attire is unsatisfactory.</string>
+    <string name="id"><b>Identity Cards: </b> Students must bring their identity cards with them whenever they go through
+    a placement process.</string>
+
+    <string name="notify_channel_id" translatable="false">MyDefaultChannelID</string>
+    <string name="notify_channel_name" translatable="false">MyDefaultChannelName</string>
+    <string name="notify_channel_description" translatable="false">MyDefaultChannelDescription</string>
+</resources>
